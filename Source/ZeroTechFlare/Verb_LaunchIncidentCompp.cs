@@ -5,9 +5,9 @@ namespace LingGame;
 
 public class Verb_LaunchIncidentCompp : CompProperties
 {
-    public bool CanSee = false;
+    public readonly bool CanSee = false;
 
-    public bool Dingly = false;
+    public readonly bool Dingly = false;
     public IncidentDef incidentDef;
 
     public Verb_LaunchIncidentCompp()

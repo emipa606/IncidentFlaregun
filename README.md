@@ -20,7 +20,6 @@ Flare gun: summon an event (can be controlled by itself)
 
 Language: Simplified Chinese, English
 Sharing Agreement:MIT
-Giturl https://github.com/LingLuo39/ZeroTech/
 
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
@@ -32,5 +31,9 @@ Giturl https://github.com/LingLuo39/ZeroTech/
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+-  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
 
+
+
+https://steamcommunity.com/sharedfiles/filedetails/changelog/3028780551]![Image](https://img.shields.io/github/v/release/emipa606/IncidentFlaregun?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
 
