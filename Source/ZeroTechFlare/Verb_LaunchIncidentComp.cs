@@ -8,15 +8,15 @@ namespace LingGame;
 
 public class Verb_LaunchIncidentComp : ThingComp
 {
-    public IncidentDef incidentDef;
+    public IncidentDef IncidentDef;
 
-    public Verb_LaunchIncidentCompp Props => (Verb_LaunchIncidentCompp)props;
+    private Verb_LaunchIncidentCompp Props => (Verb_LaunchIncidentCompp)props;
 
     public override string TransformLabel(string label)
     {
-        if (Props.CanSee && incidentDef != null)
+        if (Props.CanSee && IncidentDef != null)
         {
-            return incidentDef.LabelCap + " " + label;
+            return IncidentDef.LabelCap + " " + label;
         }
 
         return base.TransformLabel(label);
@@ -27,18 +27,18 @@ public class Verb_LaunchIncidentComp : ThingComp
         base.PostDraw();
         if (Props.Dingly)
         {
-            incidentDef = Props.incidentDef;
+            IncidentDef = Props.incidentDef;
         }
-        else if (incidentDef == null)
+        else if (IncidentDef == null)
         {
-            incidentDef = DefDatabase<IncidentDef>.AllDefs.RandomElement();
+            IncidentDef = DefDatabase<IncidentDef>.AllDefs.RandomElement();
         }
     }
 
     public override void PostExposeData()
     {
         base.PostExposeData();
-        Scribe_Defs.Look(ref incidentDef, "incidentDef");
+        Scribe_Defs.Look(ref IncidentDef, "incidentDef");
     }
 
     public override IEnumerable<Gizmo> CompGetGizmosExtra()
@@ -58,7 +58,7 @@ public class Verb_LaunchIncidentComp : ThingComp
                 foreach (var current2 in DefDatabase<IncidentDef>.AllDefs)
                 {
                     list.Add(new DebugMenuOption(string.Concat(new object[] { current2.LabelCap }),
-                        DebugMenuOptionMode.Action, delegate { incidentDef = current2; }));
+                        DebugMenuOptionMode.Action, delegate { IncidentDef = current2; }));
                 }
 
                 Find.WindowStack.Add(new Dialog_DebugOptionListLister(list));

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Random Flare Gun -->
+  <FlareGun_Random.label>Random Flare Gun</FlareGun_Random.label>
+  <!-- EN: . -->
+  <FlareGun_Random.description>.</FlareGun_Random.description>
+  <!-- EN: Random Flare Gun -->
+  <FlareGun_Random.verbs.Verb_LaunchIncident.label>Random Flare Gun</FlareGun_Random.verbs.Verb_LaunchIncident.label>
+  <!-- EN: Flare Gun -->
+  <FlareGun_Truey.label>Flare Gun</FlareGun_Truey.label>
+  <!-- EN: . -->
+  <FlareGun_Truey.description>.</FlareGun_Truey.description>
+  <!-- EN: Flare Gun -->
+  <FlareGun_Truey.verbs.Verb_LaunchIncident.label>Flare Gun</FlareGun_Truey.verbs.Verb_LaunchIncident.label>
+</LanguageData>

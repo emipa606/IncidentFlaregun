@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make Random Flare Gun -->
+  <Make_FlareGun_Random.label>make Random Flare Gun</Make_FlareGun_Random.label>
+  <!-- EN: Make a Random Flare Gun. -->
+  <Make_FlareGun_Random.description>Make a Random Flare Gun.</Make_FlareGun_Random.description>
+  <!-- EN: Making Random Flare Gun. -->
+  <Make_FlareGun_Random.jobString>Making Random Flare Gun.</Make_FlareGun_Random.jobString>
+  <!-- EN: make Flare Gun -->
+  <Make_FlareGun_Truey.label>make Flare Gun</Make_FlareGun_Truey.label>
+  <!-- EN: Make a Flare Gun. -->
+  <Make_FlareGun_Truey.description>Make a Flare Gun.</Make_FlareGun_Truey.description>
+  <!-- EN: Making Flare Gun. -->
+  <Make_FlareGun_Truey.jobString>Making Flare Gun.</Make_FlareGun_Truey.jobString>
+</LanguageData>
